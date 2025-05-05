@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>منصة تواصل - وردية</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-dove"></i>
+                <h1>وردية</h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#" class="active"><i class="fas fa-home"></i> الرئيسية</a></li>
+                    <li><a href="#"><i class="fas fa-bell"></i> الإشعارات</a></li>
+                    <li><a href="#"><i class="fas fa-envelope"></i> الرسائل</a></li>
+                    <li><a href="#"><i class="fas fa-user"></i> الملف الشخصي</a></li>
+                </ul>
+            </nav>
+            <div class="search">
+                <input type="text" placeholder="ابحث في المنصة...">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <aside class="sidebar">
+                <div class="profile-card">
+                    <div class="profile-img">
+                        <img src="https://via.placeholder.com/150" alt="صورة المستخدم">
+                    </div>
+                    <h3>سارة أحمد</h3>
+                    <p>@sara_ahmed</p>
+                    <div class="stats">
+                        <div>
+                            <span>156</span>
+                            <span>متابعون</span>
+                        </div>
+                        <div>
+                            <span>89</span>
+                            <span>متابَعون</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="trends">
+                    <h3>المواضيع الرائجة</h3>
+                    <ul>
+                        <li><a href="#">#تصميم_ويب</a></li>
+                        <li><a href="#">#تطوير_برمجيات</a></li>
+                        <li><a href="#">#الذكاء_الاصطناعي</a></li>
+                        <li><a href="#">#تقنية</a></li>
+                        <li><a href="#">#إبداع</a></li>
+                    </ul>
+                </div>
+            </aside>
+
+            <section class="feed">
+                <div class="post-form">
+                    <textarea placeholder="ماذا يدور في ذهنك؟"></textarea>
+                    <div class="post-actions">
+                        <div class="actions">
+                            <button><i class="fas fa-image"></i></button>
+                            <button><i class="fas fa-video"></i></button>
+                            <button><i class="fas fa-link"></i></button>
+                        </div>
+                        <button class="post-btn">نشر</button>
+                    </div>
+                </div>
+
+                <div class="posts">
+                    <!-- سيتم إضافة المنشورات ديناميكيًا بواسطة JavaScript -->
+                </div>
+            </section>
+
+            <aside class="right-sidebar">
+                <div class="suggestions">
+                    <h3>أشخاص قد تعرفهم</h3>
+                    <div class="suggestion">
+                        <img src="https://via.placeholder.com/50" alt="صورة المستخدم">
+                        <div>
+                            <h4>أحمد محمد</h4>
+                            <p>@ahmed_moh</p>
+                        </div>
+                        <button>متابعة</button>
+                    </div>
+                    <div class="suggestion">
+                        <img src="https://via.placeholder.com/50" alt="صورة المستخدم">
+                        <div>
+                            <h4>ليلى خالد</h4>
+                            <p>@laila_kh</p>
+                        </div>
+                        <button>متابعة</button>
+                    </div>
+                    <div class="suggestion">
+                        <img src="https://via.placeholder.com/50" alt="صورة المستخدم">
+                        <div>
+                            <h4>محمد علي</h4>
+                            <p>@mohamed_ali</p>
+                        </div>
+                        <button>متابعة</button>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <a href="#">الشروط والأحكام</a>
+                    <a href="#">سياسة الخصوصية</a>
+                    <a href="#">اتصل بنا</a>
+                </div>
+            </aside>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
